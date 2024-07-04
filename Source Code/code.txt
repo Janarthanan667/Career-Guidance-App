@@ -1,0 +1,14 @@
+install postgresql 
+-> select all option(will automatically install pg4admin) -> give admin as password -> lms_db
+
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser -> username admin password admin
+
+python manage.py runserver
+
+first register for a student/ ;ogin to admin with admin as password then create user and then create student profile for that 
+user
+then yu can login with that details
+http://127.0.0.1:8000/login
